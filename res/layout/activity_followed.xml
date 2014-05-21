@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/followed_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/friends_background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rlSearchFollowed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <EditText
+            android:id="@+id/edSearchFollowed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@drawable/cursor" >
+
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/llHintFollowed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/ivSearchLogoFollowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search_logo" />
+
+            <TextView
+                android:id="@+id/tvSearchTextFollowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:textColor="@color/blue_light"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollList"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rlSearchFollowed"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rlSubscribersFollowed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_suggest_gray" >
+
+                <TextView
+                    android:id="@+id/tvSignersFollowed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_sub"
+                    android:textColor="@color/blue_light"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/lvNewSigners"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+
+            <RelativeLayout
+                android:id="@+id/rlSubscribersFollowed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_suggest_gray" >
+
+                <TextView
+                    android:id="@+id/tvSigners"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/you_signers"
+                    android:textColor="@color/blue_light"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/ivSigners"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView>
+    
+</RelativeLayout>

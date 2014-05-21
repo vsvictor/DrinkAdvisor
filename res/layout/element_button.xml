@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/element_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:layout_marginBottom="7dp"
+	    android:background="@drawable/drink_btn_bg"
+	    android:padding="15dp" >
+	    <ImageView
+	        android:id="@+id/button_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/icon_heart" />
+	
+	    <TextView
+	        android:id="@+id/button_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="14dp"
+	        android:layout_toRightOf="@+id/button_icon"
+	        android:text="Я ПОЙДУ"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textScaleX="1.1"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/button_count"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/icon_count_bg"
+	        android:gravity="center"
+	        android:padding="2dp"
+	        android:text="0"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textStyle="bold" />
+	</RelativeLayout>
+</RelativeLayout>

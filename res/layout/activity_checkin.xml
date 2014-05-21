@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="false"
+    android:background="@drawable/img_background_right"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/img_border"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/write_something_here"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textSize="15sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/checkin_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <Button
+            android:id="@+id/btn_choose_friends"
+            style="@style/ButtonBoldFrameLightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:minHeight="32dp"
+            android:text="@string/choose_friends" />
+
+        <Button
+            android:id="@+id/btn_take_photo"
+            style="@style/ButtonBoldFrameLightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:minHeight="32dp"
+            android:text="@string/take_photo" />
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        layout="@layout/element_share" />
+
+    <Button
+        android:id="@+id/btn_checkin"
+        style="@style/ButtonLightBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/checkin" />
+
+</LinearLayout>

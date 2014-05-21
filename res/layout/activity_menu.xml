@@ -1,0 +1,268 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp" >
+
+        <TextView
+            android:id="@+id/tv_main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/menu_top_margin"
+            android:text="@string/main_menu"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0085AD"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_home_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/home"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_bars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_bars_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/bars"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_drinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_drinks_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/drinks"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_cocktails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_cocktails_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/cocktails"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_reviews_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/reviews"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_private_sections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/menu_section_margin"
+            android:text="@string/private_sections"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0085AD"
+            android:textSize="19sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_menu_friends_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="@string/_friends"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_friends_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/img_home_label"
+                android:gravity="center"
+                android:text="12"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FF00487A"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_meetings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_meetings_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/meetings"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_meetings_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/img_home_label"
+                android:gravity="center"
+                android:text="12"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FF00487A"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_favorites_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/favorites"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_settings_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/activity"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/menu_section_margin"
+            android:text="@string/actions"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0085AD"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv_create_meeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_menu_meetings_add_normal"
+            android:drawablePadding="7dp"
+            android:paddingBottom="@dimen/menu_element_padding"
+            android:paddingTop="@dimen/menu_element_padding"
+            android:text="@string/create_meeting"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/button_menu"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hide"
+        android:layout_width="140dp"
+        android:layout_height="400dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_user_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:visibility="invisible" >
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/avatar"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginRight="15dp" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Михаэль Шумахер"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/ButtonThinFrameLightBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:minHeight="40dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/login" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

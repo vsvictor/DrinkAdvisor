@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_profile_item_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/icon_meeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_meeting"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_checkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_checkin"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_comment"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_dislike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_dislike"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_friend"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_go"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_like"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_rate"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_rate_dislike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_rate_dislike"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_rate_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/feed_icon_rate_like"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/profile_event_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/sample_about_text"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/profile_event_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/sample_date_time"
+                android:textColor="#888"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

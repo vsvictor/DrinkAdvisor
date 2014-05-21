@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="menu_top_margin">30dp</dimen>
+    <dimen name="menu_section_margin">15dp</dimen>
+    <dimen name="menu_element_padding">4dp</dimen>
+    
+    <dimen name="filter_top_margin">50dp</dimen>
+    <dimen name="filter_section_margin">15dp</dimen>
+    <dimen name="filter_element_padding">4dp</dimen>
+    
+    <dimen name="login_skip_registration_bottom">14dp</dimen>
+	<dimen name="login_skip_registration_top">9dp</dimen>
+	<dimen name="login_socials_bottom">12dp</dimen>
+	<dimen name="login_socials_top">12dp</dimen>
+	<dimen name="home_button_drawing_padding">-20dp</dimen>
+	<dimen name="home_button_top_padding">10dp</dimen>
+	<dimen name="home_top_padding">0dp</dimen>
+	<dimen name="home_bottom_padding">0dp</dimen>
+		
+    <dimen name="menu_top_padding">5dp</dimen>
+    <dimen name="menu_spacing">1dp</dimen>
+    <dimen name="bar_likes_count_offset">45dp</dimen>
+    
+    <dimen name="item_height">44dp</dimen>
+    <dimen name="data_font_size_normal">15sp</dimen>
+    <dimen name="data_font_size_big">21sp</dimen>
+    <dimen name="friends_font_size">18sp</dimen>
+    <dimen name="friends_data_font_size">30sp</dimen>
+    
+</resources>

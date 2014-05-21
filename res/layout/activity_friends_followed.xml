@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMainFollowed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background_right"
+    tools:context="com.drinkadvisor.main.FriendsActivity$PlaceholderFragment" >
+
+    <include
+        android:id="@+id/friend_followed_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rlSearchFollowed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friend_followed_navigation"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <EditText
+            android:id="@+id/edSearchFollowed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="true"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@drawable/cursor" >
+
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/llHintFollowed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/ivSearchLogoFollowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/search_logo" />
+
+            <TextView
+                android:id="@+id/tvSearchTextFollowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/search"
+                android:textColor="@color/white"
+                android:textSize="@dimen/data_font_size_normal" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlSearchFollowed"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/panel"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rlSubscribersFollowed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/panel" >
+
+                <TextView
+                    android:id="@+id/tvSignersFollowed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/new_sub"
+                    android:textColor="@color/blue_light"
+                    android:textSize="@dimen/data_font_size_big" />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/lvNewSigners"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@drawable/item_separator" >
+
+            </ListView>
+
+            <RelativeLayout
+                android:id="@+id/rlSubscribersFollowed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/panel" >
+
+                <TextView
+                    android:id="@+id/tvSigners"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/you_signers"
+                    android:textColor="@color/blue_light"
+                    android:textSize="@dimen/data_font_size_big" />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/lvSigners"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@drawable/item_separator" >
+
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView> 
+
+    <ImageView
+        android:id="@+id/ivSigners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scrollList"
+        android:background="@drawable/panel" />
+
+    <TextView
+        android:id="@+id/tvNoUserFollowed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_users_found"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/img_search" >
+
+        </SearchView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="140dp" >
+
+            <Button
+                android:id="@+id/btn_recommend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/button_frame_blue"
+                android:minHeight="32dp"
+                android:text="@string/recommend_bar"
+                android:textColor="@color/button_login"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/icon_menu_location_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="Россия, Санкт-Петербург"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginRight="15dp"
+                android:background="#FF00E9FF"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_section_margin"
+                android:text="@string/view"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#B074A2BC"
+                android:textSize="19sp" />
+            
+            <TextView
+                android:id="@+id/tv_bars_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_menu_bars_list_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="@string/bars_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_bars_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_menu_bars_map_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="@string/bars_map"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_section_margin"
+                android:text="@string/filter"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#B074A2BC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_filter_by_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_menu_by_distance_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="@string/filter_by_distance"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_filter_by_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_menu_by_rating_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="@string/filter_by_rating"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_working_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/filter_section_margin"
+                android:text="@string/_working_time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#B074A2BC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_opened_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_menu_open_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="@string/opened_now"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/tv_show_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_menu_show_all_normal"
+                android:drawablePadding="7dp"
+                android:paddingBottom="@dimen/menu_element_padding"
+                android:paddingTop="@dimen/menu_element_padding"
+                android:text="@string/show_all"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_menu"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/btn_apply"
+                style="@style/ButtonLightBlue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_light_blue"
+                android:minHeight="32dp"
+                android:text="@string/apply"
+                android:textColor="#FF003168"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hide"
+        android:layout_width="140dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</RelativeLayout>

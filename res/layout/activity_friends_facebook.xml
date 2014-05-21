@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlMainFacebook"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/friends_background" >
+    
+    <include
+        android:id="@+id/friend_facebook_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rlFBSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friend_facebook_navigation"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <EditText
+            android:id="@+id/edFBSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="true"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@drawable/cursor" >
+
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/llFBHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/ivFBSearchLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/search_logo" />
+
+            <TextView
+                android:id="@+id/tvFBSearchText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/search"
+                android:textColor="@color/white"
+                android:textSize="@dimen/data_font_size_normal" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollFBList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlFBSearch"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/panel"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/lvFBNewSigners"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@drawable/item_separator" >
+
+            </ListView>
+
+            <RelativeLayout
+                android:id="@+id/rlFBSubscribers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/panel" >
+
+                <TextView
+                    android:id="@+id/tvFBSigners"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/facebook_friends"
+                    android:textColor="@color/blue_light"
+                    android:textSize="@dimen/data_font_size_big" />
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/lvFBSigners"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@drawable/item_separator" >
+
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView> 
+
+    <LinearLayout
+        android:id="@+id/llFBFooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/invite_background"
+        android:gravity="center_vertical|clip_horizontal"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" >
+
+            <ImageView
+                android:id="@+id/bFBInvateAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/invate_all"
+                />
+
+            <TextView
+                android:id="@+id/tvInvateAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/invate_all"
+                android:textColor="@color/white"
+                android:textSize="@dimen/data_font_size_normal" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" >
+
+            <ImageView
+                android:id="@+id/bFBInvateSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/invate_selected"
+                />
+
+            <TextView
+                android:id="@+id/tvInviteSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/invate_selected"
+                android:textColor="@color/white"
+                android:textSize="@dimen/data_font_size_normal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivFBSigners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/llFBFooter"
+        android:layout_below="@id/scrollFBList"
+        android:background="@drawable/panel" />
+    
+        <TextView
+        android:id="@+id/tvNoUserFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_users_found"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+    
+</RelativeLayout>

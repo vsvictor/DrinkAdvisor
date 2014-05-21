@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="47dp" >
+    
+    <com.drink.imageloader.WebImageView2
+        android:id="@+id/ivTWAvatarSigner"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_weight=".6"
+        android:background="#FFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/tvTWNameSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivTWAvatarSigner"
+        android:layout_weight=".6"
+        android:text="tvName"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/data_font_size_normal" />
+
+    <RelativeLayout
+        android:id="@+id/rlTWDisableSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".6"
+        android:background="@drawable/follow_button_watched"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/ivTWImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_followed" />
+
+        <TextView
+            android:id="@+id/tvTWDisableSigner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/watched"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlTWWatchSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".6"
+        android:background="@drawable/follow_button"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/ivTWImage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_follow" />
+
+        <TextView
+            android:id="@+id/tvTWWatchSigner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/watch"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+    </RelativeLayout>
+    
+</RelativeLayout>

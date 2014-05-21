@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="light_green">#28E6C5</color>
+    <color name="light_blue">#0FEBFA</color>
+    <color name="fr_divider">#157FA7</color>
+    <color name="light_grey_circ">#E3E3E3</color>
+    <color name="light_blue_circ">#2A99C6</color>
+    <color name="light_blue_revone">#71C9F7</color>
+    <color name="blue_revone">#1FB1EA</color>
+    <color name="black">#000000</color>
+    <color name="review_block4_back">#E4F7FB</color>
+    <color name="share_vk">#003B91</color>
+    <color name="share_fb">#002762</color>
+    <color name="share_tw">#00BAFF</color>
+  <color name="review_comm_bg">#ECEFF8</color>
+    <color name="green_light">#FF00FF97</color>
+    <color name="blue_panel">#FF005282</color>       
+</resources>

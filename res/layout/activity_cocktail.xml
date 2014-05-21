@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_background_right"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:orientation="vertical" >
+
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/element_picture" />
+
+            <include
+                android:id="@+id/btn_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                layout="@layout/button_like" />
+
+            <RelativeLayout
+                android:id="@+id/rl_cocktail_ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/ll_coctail_ingridients"
+                    android:layout_alignTop="@+id/ll_coctail_ingridients"
+                    android:background="@drawable/img_ingredients" />
+
+                <LinearLayout
+                    android:id="@+id/ll_coctail_ingridients"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_coctail_ingridients_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/coctail_text_ingredients"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#00BAFF" />
+
+                    <TableLayout
+                        android:id="@+id/tl_coctail_ingridients"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </TableLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/include_history"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/element_text_with_header" />
+
+            <include
+                android:id="@+id/include_how_do"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/element_text_with_header" />
+
+            <include
+                android:id="@+id/include_with_drink"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/element_text_with_header" />
+
+            <include
+                android:id="@+id/include_facts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/element_text_with_header" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

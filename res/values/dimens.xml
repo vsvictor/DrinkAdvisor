@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="menu_top_margin">0dp</dimen>
+    <dimen name="menu_section_margin">0dp</dimen>
+    <dimen name="menu_element_padding">0dp</dimen>
+
+    <dimen name="filter_top_margin">0dp</dimen>
+    <dimen name="filter_section_margin">0dp</dimen>
+    <dimen name="filter_element_padding">0dp</dimen>
+    
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+</resources>

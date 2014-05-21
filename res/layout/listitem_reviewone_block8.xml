@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="15dp" >
+
+        <com.drink.imageloader.WebImageView2
+            android:id="@+id/iv_revone_block8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.drink.imageloader.WebImageView2>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_block8_points"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.07"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

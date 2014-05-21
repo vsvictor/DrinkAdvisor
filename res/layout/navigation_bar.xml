@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_navigation_up"
+        android:layout_width="match_parent"
+        android:layout_height="37dp" >
+
+        <ImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_menu" />
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo_small" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#33FFFFFF"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_navigation_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="37dp" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/img_navigation_button"
+            android:drawableLeft="@drawable/button_back"
+            android:drawablePadding="-10dp"
+            android:paddingLeft="3dp"
+            android:text="@string/back"
+            android:textColor="@color/button_login"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_caption"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="Напитки"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFA3AEBF"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#33FFFFFF"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

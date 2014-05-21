@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="menu_top_margin">20dp</dimen>
+    <dimen name="menu_section_margin">10dp</dimen>
+    <dimen name="menu_element_padding">3dp</dimen>
+    
+    <dimen name="filter_top_margin">40dp</dimen>
+    <dimen name="filter_section_margin">10dp</dimen>
+    <dimen name="filter_element_padding">3dp</dimen>
+    
+    <dimen name="login_skip_registration_bottom">14dp</dimen>
+	<dimen name="login_skip_registration_top">9dp</dimen>
+	<dimen name="login_socials_bottom">12dp</dimen>
+	<dimen name="login_socials_top">12dp</dimen>
+	<dimen name="home_button_drawing_padding">-20dp</dimen>
+	<dimen name="home_button_top_padding">10dp</dimen>
+	<dimen name="home_top_padding">0dp</dimen>
+	<dimen name="home_bottom_padding">0dp</dimen>
+			
+    <dimen name="menu_top_padding">22dp</dimen>
+    <dimen name="menu_spacing">-5dp</dimen>
+    <dimen name="bar_likes_count_offset">45dp</dimen>
+</resources>

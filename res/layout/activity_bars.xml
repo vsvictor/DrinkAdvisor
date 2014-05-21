@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background_right"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+<!--    <ListView
+            android:id="@+id/lv_bars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null" >
+
+        </ListView>
+-->
+
+            <com.drink.swipelistview.SwipeListView
+                xmlns:swipe="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/lv_bars"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/light_grey_circ"
+                android:dividerHeight="0dp"
+                android:listSelector="#00000000"
+                swipe:swipeActionLeft="reveal"
+                swipe:swipeActionRight="reveal"
+                swipe:swipeAnimationTime="0"
+                swipe:swipeBackView="@+id/ll_buttons_bars"
+                swipe:swipeCloseAllItemsWhenMoveList="true"
+                swipe:swipeDrawableChecked="@drawable/choice_selected"
+                swipe:swipeDrawableUnchecked="@drawable/choice_unselected"
+                swipe:swipeFrontView="@+id/rl_main_info_bars"
+                swipe:swipeMode="left"
+                swipe:swipeOffsetLeft="96dp"
+                swipe:swipeOffsetRight="0dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_nothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_nothing_text"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/search_bars_nothing"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_nothing_recommend_bar"
+                style="@style/ButtonBoldFrameLightBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="32dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/recommend_bar" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

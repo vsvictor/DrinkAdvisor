@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:background="@color/white" >
+
+    <com.drink.imageloader.WebImageView2
+        android:id="@+id/ivAvatar"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="#FFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar" />
+    
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivAvatar"
+        android:text="tvName"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/data_font_size_normal" />
+
+    <RelativeLayout
+        android:id="@+id/rlDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_followed" />
+
+        <TextView
+            android:id="@+id/tvDisable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/unsubscribed"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+
+    </RelativeLayout>
+ 
+    <RelativeLayout
+        android:id="@+id/rlWatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/ivPanelFollowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_follow" />
+
+        <TextView
+            android:id="@+id/tvWatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/watch"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlRequested"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/ivPanelRequested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_follow" />
+
+        <TextView
+            android:id="@+id/tvRequestedFollowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/requested"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+
+    </RelativeLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,337 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background_right"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECF0F6"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="32dp"
+                    android:text="@string/private_data"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#00BAFF"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/et_user_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="84dp"
+                            android:drawablePadding="12dp"
+                            android:drawableRight="@drawable/img_arrow_gray_right"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="15dp"
+                            android:paddingTop="15dp"
+                            android:text="@string/sample_friend_name"
+                            android:textColor="#000"
+                            android:textSize="15sp" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="#CCCCCC"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/et_user_birhday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="84dp"
+                            android:drawablePadding="12dp"
+                            android:drawableRight="@drawable/img_arrow_gray_right"
+                            android:ems="10"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:inputType="date"
+                            android:paddingBottom="15dp"
+                            android:paddingTop="15dp"
+                            android:text="@string/sample_date_time"
+                            android:textColor="#000"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <com.drink.imageloader.WebImageView2
+                        android:id="@+id/photo_image"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="9dp" >
+                    </com.drink.imageloader.WebImageView2>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_user_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:drawablePadding="12dp"
+                    android:drawableRight="@drawable/img_arrow_gray_right"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Мужской"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvNoUserFollowed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECF0F6"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="32dp"
+                    android:text="@string/social_networks"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#00BAFF"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"
+                    android:drawableLeft="@drawable/settings_facebook"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/connect_to_facebook"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/settings_social"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"
+                    android:drawableLeft="@drawable/settings_twitter"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/connect_to_twitter"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/settings_social"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvNoUserFollowed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECF0F6"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="32dp"
+                    android:text="@string/other_settings"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#00BAFF"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_weight="1"
+                        android:text="@string/private_mode"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <Switch
+                        android:id="@+id/sw_private"
+                        style="@style/Switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvNoUserFollowed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECF0F6"
+                    android:padding="12dp"
+                    android:text="@string/settings_notification"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#999999"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#CCCCCC"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvNoUserFollowed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECF0F6"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="32dp"
+                    android:text="@string/notifications"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#00BAFF"
+                    android:textSize="20sp" />
+
+                <include
+                    android:id="@+id/notification_likes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/element_notification" />
+
+                <include
+                    android:id="@+id/notification_comments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/element_notification" />
+
+                <include
+                    android:id="@+id/notification_posts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/element_notification" />
+
+                <include
+                    android:id="@+id/notification_checkins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/element_notification" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_login"
+                android:text="@string/exit"
+                android:textColor="@color/button_login"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friends_item"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:background="#FFECF0F6"
+    android:gravity="bottom|left"
+    android:orientation="horizontal"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:text="@string/you_are_following"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue_light"
+        android:textSize="20sp" />
+
+</LinearLayout>

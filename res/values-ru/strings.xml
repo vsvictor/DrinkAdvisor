@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VERSION 2.0 -->
+    <string name="loading">загрузка</string>
+    <string name="enter_over">Войти через</string>
+    <string name="enter_over_DA">Вход через Email</string>
+    <string name="registration_on_DA">Регистрация через Email</string>
+    <string name="skip_registration">Пропустить регистрацию</string>
+    <string name="home_button_bars">Бары</string>
+    <string name="home_button_drinks">Напитки</string>
+    <string name="home_button_cocktails">Коктейли</string>
+    <string name="home_button_reviews">Обзоры</string>
+    <string name="home_button_friends">Друзья</string>
+    <string name="home_button_meetings">Встречи</string>
+    <string name="home_button_favorites">Избранное</string>
+    <string name="home_button_activity">Лента</string>
+    <string name="home_button_profile">Профиль</string>
+    <string name="basis">Основа</string>
+    <string name="back">Назад</string>
+    <string name="brands">Брэнды</string>
+    <string name="drinks">Напитки</string>
+    <string name="bars">Бары</string>
+    <string name="cocktails">Коктейли</string>
+    <string name="login">Войти</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="usual_reg_header">Регистрация через Email</string>
+    <string name="usual_login_header">Войти через Email</string>
+    <string name="your_email">Ваш e-mail</string>
+    <string name="signup">Создать аккаунт</string>
+    <string name="password">Пароль</string>
+    <string name="date_birth">Дата рождения</string>
+    <string name="register_message"></string>
+    <string name="male">Мужской пол</string>
+    <string name="female">Женский пол</string>
+    <string name="aprove">Подтвердить</string>
+    <string name="check_age_message">Что бы воспользоваться приложением Вам должно быть больше 21 года. Пожалуйста подвердите свой возраст</string>
+    <string name="check_age_denied">Извините, вход в приложение возможен только для лиц старше 21 года</string>
+    <string name="no_activity">Пользователь пока что не проявлял активности</string>
+    <string name="activity">Лента</string>
+    <string name="login_required">Требуется авторизация</string>
+    <string name="weeks_ago">недель назад</string>
+    <string name="days_ago">дней назад</string>
+    <string name="hours_ago">часов назад</string>
+    <string name="minutes_ago">минут назад</string>
+    <string name="total_friends">друзей</string>
+    <string name="total_checkins">чек-инов</string>
+    <string name="total_comments">комментариев</string>
+    <string name="profile">Профиль</string>
+    <string name="profile_feed">ЛЕНТА АКТИВНОСТИ</string>
+    <string name="settings">Настройки</string>
+    <string name="private_data">ЛИЧНЫЕ ДАННЫЕ</string>
+    <string name="select_male">Выберите пол</string>
+    <string name="sex_male">Мужской</string>
+    <string name="sex_female">Женский</string>
+    <string name="social_networks">СОЦИАЛЬНЫЕ СЕТИ</string>
+    <string name="other_settings">НАСТРОЙКИ ПРИВАТНОСТИ</string>
+    <string name="connect_to_facebook">Подключить</string>
+    <string name="connected_to_facebook">Facebook подключен</string>
+    <string name="connect_to_twitter">Подключить</string>
+    <string name="connected_to_twitter">Twitter подключен</string>
+    <string name="private_mode">Приватный профиль</string>
+    <string name="settings_notification">Установите настройки приватности на \"Вкл.\", чтобы рассматривать запросы на подписку. Это никак не повлияет на уже существующих подписчиков</string>
+    <string name="notifications">УВЕДОМЛЕНИЯ</string>
+    <string name="exit">Выйти из аккаунта</string>
+    <string name="notification_likes">Лайки</string>
+    <string name="notification_comments">Отзывы друзей о барах</string>
+    <string name="notification_posts">Новые обзоры</string>
+    <string name="notification_checkins">Чекины друзей</string>
+    <string name="bar_checkin">Отметиться</string>
+    <string name="bar_meeting">Встреча</string>
+    <string name="bar_favorite">В избранное</string>
+    <string name="bar_comments">Отзывы</string>
+    <string name="bar_photos">Фото</string>
+    <string name="bar_add_photo">Добавить фото</string>
+    <string name="working_time">ВРЕМЯ РАБОТЫ</string>
+    <string name="monday">ПОНЕДЕЛЬНИК</string>
+    <string name="tuesday">ВТОРНИК</string>
+    <string name="wednesday">СРЕДА</string>
+    <string name="thursday">ЧЕТВЕРГ</string>
+    <string name="friday">ПЯТНИЦА</string>
+    <string name="saturday">СУББОТА</string>
+    <string name="sunday">ВОСКРЕСЕНЬЕ</string>
+    <string name="this_is_today">ЭТО СЕГОДНЯ</string>
+    <string name="wrong_info">Неверная информация</string>
+    <string name="about_bar">ОПИСАНИЕ БАРА</string>
+    <string name="select_weekday">Выберите день недели</string>
+    <string name="main_menu">Основное меню</string>
+    <string name="home">Домой</string>
+    <string name="private_sections">Личные разделы</string>
+    <string name="actions">Действия</string>
+    <string name="create_meeting">Создать встречу</string>
+    <string name="reviews">Обзоры</string>
+    <string name="_friends">Друзья</string>
+    <string name="meetings">Встречи</string>
+    <string name="favorites">Избранное</string>
+    <string name="recommend_bar">Рекомендовать бар</string>
+    <string name="view">Вид</string>
+    <string name="bars_list">Бары списком</string>
+    <string name="bars_map">Бары на карте</string>
+    <string name="filter">Фильтры</string>
+    <string name="filter_by_distance">По расстоянию</string>
+    <string name="filter_by_rating">По рейтингу</string>
+    <string name="_working_time">Время работы</string>
+    <string name="opened_now">Сейчас открыто</string>
+    <string name="show_all">Показать все</string>
+    <string name="apply">Применить</string>
+    <string name="select_city">Выберите город</string>
+    <string name="_bar_name">Название бара</string>
+    <string name="_address">Адрес</string>
+    <string name="mark_on_the_map">Отметить на карте</string>
+    <string name="what_about_this_bar">Чем хорош этот бар?</string>
+    <string name="let_write_about_this_here">Напишите сюда об этом</string>
+    <string name="_send">Отправить</string>
+    <string name="add_review">Добавить отзыв</string>
+    <string name="_reviews">ОТЗЫВЫ</string>
+    <string name="you_like_this_bar">Если Вам понравился этот бар, пожалуйста, оставьте отзыв</string>
+    <string name="write_your_comment_here">Напишите здесь Ваш отзыв</string>
+    <string name="choose_friends">Выбрать друзей</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="write_something_here">Напишите что-нибудь</string>
+    <string name="_dont_know">НЕ ЗНАЮ</string>
+    <string name="_will_go">ПОЙДУ</string>
+    <string name="_will_not_can">НЕ ПОЙДУ</string>
+    <string name="_remove">УДАЛИТЬ</string>
+    <string name="_cancel">ОТМЕНИТЬ</string>
+    <string name="all">все</string>
+    <string name="tv_show_on_map">посмотреть на карте</string>
+    <string name="invited_many">Приглашены</string>
+    <string name="invited_one">Приглашен</string>
+    <string name="checked_in_one">Отмечен</string>
+    <string name="will_go">Пойдут</string>
+    <string name="call_your_friends">Пригласить своих друзей</string>
+    <string name="_comments">КОММЕНТАРИИ</string>
+    <string name="add_your_comment">Добавить комментарий</string>
+    <string name="who_will_go">Приглашены</string>
+    <string name="_dont_know_">Не знает</string>
+    <string name="_will_go_">Пойдет</string>
+    <string name="_will_not_can_">Не пойдет</string>
+    <string name="meeting_description">ОПИСАНИЕ ВСТРЕЧИ</string>
+    <string name="invite">приглашает</string>
+    <string name="_invited">пригласил</string>
+    <string name="no_meetings">У Вас пока что нет ни одной встречи</string>
+    <string name="today">сегодня</string>
+    <string name="_new">новая!</string>
+    <string name="next">Далее</string>
+    <string name="meeting_title">Название встречи</string>
+    <string name="meeting_date">Дата</string>
+    <string name="meeting_time">Время</string>
+    <string name="meeting_comment">Описание встречи</string>
+    <string name="create_meeting_info">Создание встречи</string>
+    <string name="cancel">Отмена</string>
+    <string name="select_bar">Выберите бар</string>
+    <string name="meeting_resume">Новая встреча</string>
+    <string name="meeting_past">встреча прошла</string>
+    <string name="went">пришло</string>
+    <string name="invite_all">пригласить всех</string>
+    <string name="check_in_all">отметить всех</string>
+    <string name="selected_only">только выбранных</string>
+    <string name="_invite">Пригласить</string>
+    <string name="_check_in">Отметить</string>
+    <string name="selected">Выбран</string>
+    <string name="you_are_following">ВЫ ПОДПИСАНЫ</string>
+    <string name="your_followers">НА ВАС ПОДПИСАНЫ</string>
+    <string name="ask_cancel_meeting">Вы хотите отменить встречу?</string>
+    <string name="ask_remove_meeting">Вы хотите удалить встречу?</string>
+    <string name="meeting_settings">НАСТРОЙКИ ВСТРЕЧИ</string>
+    <string name="friends_can_invite_friends">Друзья могут звать друзей</string>
+    <string name="publish_to_facebook">Опубликовать в Facebook</string>
+    <string name="publish_to_twitter">Опубликовать в Twitter</string>
+    <string name="description">ОПИСАНИЕ</string>
+    <string name="over_social_networks">Войти через:</string>
+    <string name="wrong_meeting_date">Нельзя создать встречу в прошлом</string>
+    <string name="_registration">Регистрация</string>
+    <string name="no_connect_announce">К сожалению, интернет соединение недоступно</string>
+    <string name="stay_offline">Перейти в избранное</string>
+    <string name="stay_online">Подключиться к интернет</string>
+    <string name="closed_today">закрыт сегодня</string>
+    <string name="opened_tonight">открыт вечером</string>
+    <string name="opened_today">открыт сегодня</string>
+    <string name="_take_photo">сделать фото</string>
+    <string name="_change_photo">изменить фото</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="recommend_bar_message">Ваша информация будет обработана в ближайшее время</string>
+    <string name="search_bars_nothing">К сожалению, поиск не дал результатов</string>
+    <string name="you_have_found">Вы искали</string>
+    <string name="all_bars">Все бары</string>
+    
+    <!-- NEW ENTRIES!!! -->
+    <string name="choose_city">Город</string>
+    <string name="bar_name">Название бара</string>
+    <string name="address">Адрес</string>
+    <string name="mark_on_map">Отметить на карте</string>
+    <string name="what_is_good">Чем хорош этот бар?</string>
+    <string name="send">ОТПРАВИТЬ</string>
+    <string name="enter_bar_name">Введите название бара</string>
+    <string name="no_activities">ДЕЙСТВИЙ ПОКА НЕТ</string>
+    <string name="no_friends">У ВАС ПОКА НЕТ ДРУЗЕЙ НА САЙТЕ</string>
+    <string name="no_places">СПИСОК ВАШИХ МЕСТ ПОКА ПУСТ</string>
+    <string name="one_of">из</string>
+    <string name="review_nothing">ОТЗЫВОВ ПОКА НЕТ.</string>
+    <string name="review_be_the_first">НАПИШИТЕ ОТЗЫВ ПЕРВЫМ!</string>
+    <string name="bar_no_photos">Фотографий еще нет!</string>
+    <string name="bar_checkin_disable">Вы уже отметились в этом баре.</string>
+    <string name="bar_too_far">Вы слишком далеко от этого бара!</string>
+    <string name="need_checkin">Необходимо отметиться!</string>
+    <string name="checkin">Отметиться</string>
+    <string name="add_friends">ВЫБРАТЬ ОТМЕЧЕННЫХ</string>
+    <string name="go">Пойду</string>
+    <string name="dont_go">Не пойду</string>
+    <string name="dont_know">Не знаю</string>
+    <string name="cancel_meeting">Отменить встречу</string>
+    <string name="SN_connect_error">Этот акаунт уже используется</string>
+    <string name="actual_meetings">Актуальные встречи</string>
+    <string name="past_meetings">Прошлые встречи</string>
+    <string name="discuss_meeting">Обсудить встречу</string>
+    <string name="select_bar_for_meeting">Выберите бар для встречи</string>
+    <string name="select_date">Укажите дату</string>
+    <string name="select_time">Укажите время</string>
+    <string name="invalid_date">Неправильная дата</string>
+    <string name="your_comment">Ваш комментарий</string>
+    <string name="select_invite_friends_meeting">Позвать друзей</string>
+    <string name="select_invited_friends">Выберите приглашенных друзей</string>
+    <string name="state_go">пойдет</string>
+    <string name="state_dont_go">не пойдет</string>
+    <string name="state_dont_know">не знает</string>
+    <string name="change">Изменить</string>
+    <string name="meeting_create">СОЗДАТЬ ВСТРЕЧУ</string>
+    <string name="post">Комментировать</string>
+    <string name="friends">друзья</string>
+    <string name="mark_all">Отметить Всех</string>
+    <string name="reset">Очистить</string>
+    <string name="network_error">Ошибка подключения к сети</string>
+    <string name="retry">Повторить</string>
+    <string name="mass_request_friends">Дружить со всеми</string>
+    <string name="invite_friends_via_sms">пригласи друзей из телефонной книги</string>
+    <string name="or">или</string>
+    <string name="invite_friends">Пригласи их сейчас!</string>
+    <string name="wrong_info_title">Нашли ошибку?</string>
+
+    <string-array name="wrong_info_items">
+        <item>Адрес</item>
+        <item>Телефон</item>
+        <item>Время работы</item>
+        <item>Бар закрыт</item>
+        <item>Фотография</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string name="wrong_info_reply_header">Спасибо за содействие!</string>
+    <string name="wrong_info_reply_message">Информация отправлена в службу поддержки</string>
+    <string name="apprater_text">Нам очень важно ваше мнение о DrinkAdvisor</string>
+    <string name="apprater_rate_it">Оценить</string>
+    <string name="apprater_dont_like">Мне не нравится</string>
+    <string name="apprater_remind_later">Напомнить позже</string>
+    <string name="apprater_dont_show">Не показывать больше</string>
+    <string name="apprater_text_like">Подпишись на новости в Facebook и узнавай о новых барах по всему миру каждый день!</string>
+    <string name="apprater_follow">Подписаться</string>
+    <string name="sms_text">Попробуй DrinkAdvisor! Здесь все лучшие бары и клубы по всему миру! http://www.drinkadvisor.com</string>
+    <string name="friends_on_site_1">из</string>
+    <string name="friends_on_site_2">ваших друзей пока еще нет на DrinkAdvisor.</string>
+
+    <!-- Error messages -->
+    <string name="error_dialog_title">Ошибка</string>
+    <string name="bar_remaining_time">В следующий раз, вы сможете оценить этот бар через</string>
+    <string name="remaining_days_1">день</string>
+    <string name="remaining_days_2_4">дня</string>
+    <string name="remaining_days_5">дней</string>
+    <string name="remaining_hours_1">час</string>
+    <string name="remaining_hours_2_4">часа</string>
+    <string name="remaining_hours_5">часов</string>
+    <string name="remaining_minutes_1">минута</string>
+    <string name="remaining_minutes_2_4">минуты</string>
+    <string name="remaining_minutes_5">минут</string>
+    <string name="enter_text">Введите пожалуйста текст</string>
+    <string name="need_check_like">Для того, чтобы написать отзыв, нужно оценить бар</string>
+    <string name="information_sent">Спасибо! Информация отправлена</string>
+
+    <!-- ///////////// global ///////////// -->
+    <string name="text_read_more">подробнее</string>
+    <string name="btn_text_like">Мне нравится</string>
+    <string name="btn_filter">Фильтр</string>
+    <string name="dlg_autorization_text">Пожалуйста авторизуйтесь.</string>
+    <string name="dlg_server_error">Сервер вернул ошибку.</string>
+    <string name="dlg_btn_ok">ОК</string>
+    <string name="dlg_btn_cancel">Отмена</string>
+    <string name="dlg_btn_exit">Выход</string>
+    <!-- ///////////// global ///////////// -->
+
+
+    <!-- ///////////// REGISTRATION ///////////// -->
+    <string name="reg_text_name">Ваше имя</string>
+    <string name="reg_text_date">Дата рождения</string>
+    <string name="reg_text_mail">Ваш e-mail</string>
+    <string name="reg_text_pass">Пароль (не менее 6 символов)</string>
+    <string name="reg_text_city">Ваш город</string>
+    <string name="reg_text_sex">Пол</string>
+    <string name="reg_text_sex_male">Мужской</string>
+    <string name="reg_text_sex_female">Женский</string>
+    <string name="reg_btn_registration">зарегистрироваться</string>
+    <string name="reg_dialog_title">ошибка</string>
+    <string name="reg_name_misssing">Введите ваше имя.</string>
+    <string name="reg_birth_missing">Пожалуйста, введите дату вашего рождения.</string>
+    <string name="reg_birth_invalid">Вам меньше 21 года. Регистрация невозможна.</string>
+    <string name="reg_email_missing">Введите ваш E-mail.</string>
+    <string name="invalid_email">Некорректный E-mail.</string>
+    <string name="reg_password_short">Пароль слишком короткий.</string>
+    <string name="reg_gender_missing">Укажите ваш пол.</string>
+    <!-- ///////////// REGISTRATION ///////////// -->
+
+
+    <!-- ///////////// LOG IN ///////////// -->
+    <string name="email_error">Введите ваш E-mail.</string>
+    <string name="password_error">Введите пароль</string>
+    <string name="li_txt_login">e-mail</string>
+    <string name="li_txt_pass">password</string>
+    <string name="li_btn_log_in">войти</string>
+    <string name="li_btn_registration">регистрация</string>
+    <string name="li_btn_without_registration">войти без регистрации</string>
+    <!-- ///////////// LOG IN ///////////// -->
+
+
+    <!-- ///////////// SlidingMenu ///////////// -->
+    <string name="sm_text_account">ВАШ АККАУНТ</string>
+    <string name="sm_btn_profile">Профиль</string>
+    <string name="sm_btn_exit">Выйти</string>
+    <string name="sm_btn_register">Регистрация</string>
+    <string name="sm_btn_login">Войти</string>
+    <string name="sm_text_section">РАЗДЕЛЫ</string>
+    <string name="sm_btn_friends">Мои друзья</string>
+    <string name="sm_btn_meeting">Мои встречи</string>
+    <string name="sm_btn_place">Мои места</string>
+    <string name="sm_btn_feed">Лента</string>
+    <string name="sm_text_menu">МЕНЮ САЙТА</string>
+    <string name="sm_btn_bars">Бары</string>
+    <string name="sm_btn_drinks">Напитки</string>
+    <string name="sm_btn_cocteils">Коктейли</string>
+    <string name="sm_btn_blog">Обзоры</string>
+    <string name="sm_btn_home">Домой</string>
+    <string name="sm_text_actions">ДЕЙСТВИЯ</string>
+    <string name="sm_btn_add_meeting">Создать встречу</string>
+    <string name="sm_btn_check_in">ОТМЕТИТЬСЯ</string>
+    <!-- ///////////// SlidingMenu ///////////// -->
+
+
+    <!-- ///////////// BAR ///////////// -->
+    <!-- //// list of bars //// -->
+    <string name="addphoto_btn">ДОБАВИТЬ ФОТО</string>
+    <string name="bars_btn_map">На карте</string>
+    <string name="dist_c">km</string>
+    <string name="bars_btn_list">список баров</string>
+    <string name="bars_btn_apply">ПРИМЕНИТЬ</string>
+    <string name="bars_text_not_found">Хотите добавить бар?</string>
+    <!-- //// filter of bars /// -->
+    <!-- filter array -->
+    <string-array name="bars_filterby">
+        <item>Город</item>
+        <item>Сортировать по</item>
+    </string-array>
+    <!-- filter array -->
+    <!-- расстоянию - 1, названию - 2, рейтингу - 3 -->
+    <!-- filter bar by -->
+    <string-array name="bars_sortby">
+        <item>По расстоянию</item>
+        <item>По названию</item>
+        <item>По рейтингу</item>
+    </string-array>
+    <!-- filter bar by -->
+    <string name="bars_text_filter_null">Не выбрано</string>
+    <!-- //// filter of bars /// -->
+    <!-- //// list of bars /// -->
+    <!-- //// one bar //// -->
+    <string name="bar_btn_like">Like</string>
+    <string name="bar_btn_check_in">ОТМЕТИТЬСЯ</string>
+    <string name="bar_btn_on_map">на карте</string>
+    <string name="bar_btn_user_photo">ФОТО ПОЛЬЗОВАТЕЛЕЙ</string>
+    <string name="bar_btn_add_photo">ДОБАВИТЬ ФОТО</string>
+    <string name="bar_btn_i_will_go">ПРИГЛАСИТЬ ДРУЗЕЙ</string>
+    <string name="bar_btn_reviews">ОТЗЫВЫ</string>
+    <string name="bar_btn_add_review">ОСТАВИТЬ ОТЗЫВ</string>
+    <string name="bar_text_working_time_1">Пн-Чт</string>
+    <string name="bar_text_working_time_2">Пт-Сб</string>
+    <string name="bar_text_working_time_3">Вс</string>
+    <string name="bar_text_not_working">Не работает</string>
+    <string name="bar_text_24">24 часа</string>
+    <!-- //// one bar //// -->
+    <!-- ///////////// BAR ///////////// -->
+
+
+    <!-- ///////////// CHECK IN ///////////// -->
+    <string name="checkin_text_call_friends">Отметить друзей:</string>
+    <string name="checkin_btn_all_friends"></string>
+    <string name="checkin_btn_choose_friends">Выбрать друзей</string>
+    <string name="checkin_text_published">Социальные сети</string>
+    <string name="checkin_btn_chin">ОТМЕТИТЬСЯ</string>
+    <!-- ///////////// CHECK IN ///////////// -->
+
+
+    <!-- ///////////// REVIEWS ///////////// -->
+    <string name="reviews_btn_add_review">ОСТАВИТЬ ОТЗЫВ</string>
+    <string name="reviews_btn_translate">See the translation from Google.</string>
+    <string name="reviews_btn_more">подробнее</string>
+    <string name="reviews_text_last_visit">был в баре</string>
+    <string name="reviews_text_write">написал</string>
+    <string name="reviews_text_write_time">в</string>
+    <!-- ///////////// REVIEWS ///////////// -->
+    <string name="following_you">На вас подписаны</string>
+    <string name="following">Вы подписаны</string>
+    <string name="fr_facebook">Друзья в Facebook</string>
+    <string name="fr_facebook_act">Подключить Facebook</string>
+    <string name="fr_twitter">Друзья в Twitter</string>
+    <string name="fr_twitter_act">Подключить Twitter</string>
+    <string name="fr_isactive">Подключен</string>
+    <string name="invite_from_contact">Пригласить из контактов телефона</string>
+    <string name="fr_new">новые</string>
+    <string name="fr_caption">Ваши друзья</string>
+    <string name="rew_caption">Review</string>
+    <string name="rew_caption_one">Обзоры</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="new_rev_btn">новый</string>
+    <string name="share">ПОДЕЛИТЬСЯ:</string>
+    <string name="comments">КОММЕНТАРИИ</string>
+
+    <!-- ///////////// ADD REVIEW ///////////// -->
+    <string name="review_add_btn_like"></string>
+    <string name="review_add_btn_dislike"></string>
+    <string name="review_add_btn_add">ОСТАВИТЬ ОТЗЫВ</string>
+    <string name="review_add_dlg_saccess">ОСТАВИТЬ ОТЗЫВ</string>
+    <!-- ///////////// ADD REVIEW ///////////// -->
+
+
+    <!-- ///////////// DRINK ///////////// -->
+    <!-- //// one drink //// -->
+    <string name="drink_text_interesting_facts">ИНТЕРЕСНЫЕ ФАКТЫ</string>
+    <string name="drink_text_how_made">КАК ДЕЛАЮТ</string>
+    <string name="drink_text_how_drink">КАК ПЬЮТ</string>
+    <string name="drink_text_history">ИСТОРИЯ</string>
+    <string name="drink_btn_brands">ИЗВЕСТНЫЕ БРЕНДЫ</string>
+    <string name="drink_btn_coctails">КОКТЕЙЛИ</string>
+    <!-- //// one drink //// -->
+    <!-- ///////////// DRINK ///////////// -->
+
+
+    <!-- ///////////// COCTAIL ///////////// -->
+    <string name="coctail_text_ingredients">ИНГРЕДИЕНТЫ</string>
+    <string name="coctail_text_history">ИСТОРИЯ</string>
+    <string name="coctail_text_how_make">СПОСОБ ПРИГОТОВЛЕНИЯ</string>
+    <string name="coctail_text_options">ВАРИАНТЫ</string>
+    <string name="coctail_text_interesting_facts">ИНТЕРЕСНЫЕ ФАКТЫ</string>
+    <string name="coctail_filter_str_any">Любая</string>
+    <string name="coctail_filter_str">Основа коктейлей</string>
+    <!-- ///////////// COCTAIL ///////////// -->
+
+
+    <!-- ///////////// FRIENDS LIST ///////////// -->
+    <string name="friends_list_btn_find">найти друзей</string>
+    <string name="friends_list_btn_offers">предложения дружить</string>
+    <string name="friends_list_text_offers_count">У вас есть новые запросы</string>
+    <!-- ///////////// FRIENDS LIST ///////////// -->
+
+
+    <!-- ///////////// FRIENDS SEARCH ///////////// -->
+    <string name="friends_search_btn_befriend">дружить</string>
+    <string name="friends_search_btn_call">пригласить</string>
+    <string name="friends_search_btn_invite">пригласить</string>
+    <string name="friends_search_text_addcomment"></string>
+    <!-- ///////////// FRIENDS SEARCH ///////////// -->
+
+
+    <!-- ///////////// FRIENDS SUGGESTIONS ///////////// -->
+    <string name="friends_suggestions_btn_ok">Принять</string>
+    <string name="friends_suggestions_btn_cancel">Отклонить</string>
+    <string name="friends_suggestions_dlg_no_requests"></string>
+    <!-- ///////////// FRIENDS SUGGESTIONS ///////////// -->
+
+
+    <!-- ///////////// BLOG LIST ///////////// -->
+    <string name="bloglist_btn_more">подробнее</string>
+    <string name="bloglist_btn_comment">оставить комментарий</string>
+    <!-- ///////////// BLOG LIST ///////////// -->
+
+
+    <!-- ///////////// BLOG ONE ///////////// -->
+    <string name="blog_btn_add_comment">ДОБАВИТЬ КОММЕНТАРИЙ</string>
+    <string name="blog_text_comments">КОММЕНТАРИИ</string>
+    <!-- ///////////// BLOG ONE ///////////// -->
+
+
+    <!-- ///////////// PROFILE ///////////// -->
+    <string name="profile_text_birth_date">Дата рождения</string>
+    <string name="profile_text_city">Город по умолчанию</string>
+    <string name="profile_text_sex">Пол</string>
+    <string name="profile_text_sex_male">Мужской</string>
+    <string name="profile_text_sex_female">Женский</string>
+    <string name="profile_text_published">СОЦИАЛЬНЫЕ СЕТИ</string>
+    <string name="profile_text_tb_on">Да</string>
+    <string name="profile_text_tb_off">Нет</string>
+    <string name="profile_text_show_photo">Показывать мою фотографию чужим</string>
+    <string name="profile_text_send_letters">Присылать мне письма</string>
+    <string name="profile_text_show_stutus">Показывать мой статус на сайте</string>
+    <string name="profile_btn_chg_pass">Изменить пароль</string>
+    <string name="profile_btn_save">СОХРАНИТЬ</string>
+    <!-- ///////////// PROFILE ///////////// -->
+
+	<string name="unsubscribed">Подписаться</string>    
+    <string name="watched">Подписаться</string>    
+	<string name="enable">Разрешить</string>
+	<string name="you_signers">На вас подписаны</string>
+	<string name="new_sub">ХОТЯТ ПОДПИСАТЬСЯ НА ВАС</string>	
+	<string name="ok">Ok</string>		 
+	<string name="alert">Alert!</string>
+	<string name="this_prifile">This profile is private!</string>
+	<string name="requested">Запрошено</string>	
+	<string name="invate">Пригласить</string> 
+	<string name="invated">Пригласить</string>	
+	<string name="selected_">Selected</string>
+	<string name="invate_all">Пригласить всех</string>
+	<string name="invate_selected">Только выбраных</string>
+	<string name="your_friends_in_twitter">Друзья</string>
+	<string name="your_friends_in_facebook">Друзья</string>	
+	<string name="facebook_friends">Друзья из Facebook</string>
+
+
+
+    <!-- User/Friend Profile page -->
+    <string name="profile_button_settings">Настройки</string>
+    <string name="profile_send_request">Добавить в друзья</string>
+    <string name="profile_request_sent">Request is sent </string>
+    <string name="profile_delete_friend">Удалить из друзей</string>
+    <string name="friend_request_message">Please add me as your friend</string>
+    <!-- Event actions -->
+    <string name="event_review">написал отзыв о</string>
+    <string name="event_comment">написал комментарий о</string>
+    <string name="event_checkin">был в</string>
+    <string name="event_create_meeting">назначил встречу с друзьями в</string>
+    <string name="event_going_to_meeting">собирается на встречу с друзьями в</string>
+    <string name="event_become_friend">дружит с</string>
+    <string name="event_like_cocktail">нравится коктейль</string>
+    <string name="event_like_review">нравится обзор</string>
+    <string name="event_like">нравится</string>
+    <string name="event_rate">оценил</string>
+
+    <!-- Meetings list page -->
+    <string name="meeting_invited">Пригласил вас</string>
+    <string name="meeting_show_invited_friends">Показать приглашенных друзей</string>
+
+</resources>

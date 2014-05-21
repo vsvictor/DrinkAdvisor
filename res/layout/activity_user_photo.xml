@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llContent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img_background_right"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/navigation_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rlBAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/rlBAdd"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/panel" >
+
+        <ImageView
+            android:id="@+id/ivPhotoUser"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/add_bar_copy" />
+
+        <TextView
+            android:id="@+id/tvAddBarPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/bar_add_photo"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+<!--     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/rlBAdd"
+        android:background="@drawable/blog_add_comment" >
+ 
+    </RelativeLayout>
+ -->
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rlBAdd"
+        android:layout_below="@+id/include1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:fadingEdge="none"
+        android:longClickable="true"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scrollbarDefaultDelayBeforeFade="10"
+        android:scrollbars="none"
+        android:spacing="0dp" />
+    
+</RelativeLayout>

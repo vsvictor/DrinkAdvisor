@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="47dp" >
+
+    <com.drink.imageloader.WebImageView2
+        android:id="@+id/ivAvatarSigner"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_weight=".6"
+        android:background="#FFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/tvNameSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivAvatarSigner"
+        android:layout_weight=".6"
+        android:text="tvName"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/data_font_size_normal" />
+
+    <RelativeLayout
+        android:id="@+id/rlDisableSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".6"
+        android:background="@drawable/follow_button_watched"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_followed" />
+
+        <TextView
+            android:id="@+id/tvDisableSigner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/watched"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlWatchSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".6"
+        android:background="@drawable/follow_button"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_follow" />
+
+        <TextView
+            android:id="@+id/tvWatchSigner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/watch"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlRequestedSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".6"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/ivPanelRequested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_follow" />
+
+        <TextView
+            android:id="@+id/tvRequestedSigner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/requested"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlEnabledSigner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".6"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/ivPanelFollowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_enable" />
+
+        <TextView
+            android:id="@+id/tvEnabledSigner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/enable"
+            android:textColor="@color/white"
+            android:textSize="@dimen/data_font_size_normal" />
+    </RelativeLayout>
+
+</RelativeLayout>

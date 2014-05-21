@@ -1,0 +1,412 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="15dp" >
+
+        <com.drink.imageloader.WebImageView2
+            android:id="@+id/wiv_avatar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="10dp" >
+        </com.drink.imageloader.WebImageView2>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_invite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slava Kuteev приглашает"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_date_time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FF00FF97"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        layout="@layout/element_picture" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/sample_address"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_show_on_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/img_read_more"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="@string/tv_show_on_map"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_login"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#8000E9FF"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/btn_dont_know"
+            style="@style/ButtonBoldFrameLightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="@string/_dont_know" />
+
+        <Button
+            android:id="@+id/btn_will_go"
+            style="@style/ButtonBoldFrameLightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:text="@string/_will_go" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/btn_dont_go"
+            style="@style/ButtonBoldFrameLightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:text="@string/_will_not_can" />
+
+        <Button
+            android:id="@+id/btn_remove"
+            style="@style/ButtonBoldFrameLightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:text="@string/_remove" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_invited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_invited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/invited_many"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|fill_horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/invited_1"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/invited_2"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/invited_3"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/invited_4"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_invited_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_meeting_blue" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_invited_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/button_meeting_blue"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_invited_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="81"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/button_meeting_blue"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_will_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_will_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/will_go"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|fill_horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/will_go_1"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/will_go_2"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/will_go_3"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <com.drink.imageloader.WebImageView2
+                android:id="@+id/will_go_4"
+                android:layout_width="51dp"
+                android:layout_height="51dp" >
+            </com.drink.imageloader.WebImageView2>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_will_go_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_meeting_green" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_will_go_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/button_meeting_green"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_will_go_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="81"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/button_meeting_green"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_call_friends"
+        style="@style/ButtonLightBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/call_your_friends" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" >
+
+        <include
+            android:id="@+id/include_meeting_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/element_text_with_header" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFECF0F6"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <TextView
+            android:id="@+id/tv_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/_comments"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blue_normal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_add_comment"
+            style="@style/ButtonDarkBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/add_your_comment" />
+    </LinearLayout>
+
+</LinearLayout>

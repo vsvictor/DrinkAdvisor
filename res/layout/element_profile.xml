@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:baselineAligned="false"
+	android:background="#FFF" >
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="2" >	                
+		<TextView
+		    android:id="@+id/tv_text"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="#000"
+			android:text="@string/profile_text_show_photo" />
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="3"
+	    android:gravity="center_vertical" >	               
+		<TextView
+			android:id="@+id/tv_off"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#000"
+			android:layout_marginRight="5dp"
+			android:text="@string/profile_text_tb_off"
+			android:gravity="center_vertical"/>
+		<ToggleButton 
+			android:id="@+id/tb_on_off"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/tumbler"
+			android:textOn=""
+			android:textOff=""
+			android:layout_marginRight="5dp"
+			android:layout_toRightOf="@+id/tv_off"/> 	                
+		<TextView
+			android:id="@+id/tv_on"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#000"
+			android:gravity="center_vertical"
+			android:text="@string/profile_text_tb_on"
+			android:layout_toRightOf="@+id/tb_on_off" />
+	</RelativeLayout>
+</LinearLayout>	

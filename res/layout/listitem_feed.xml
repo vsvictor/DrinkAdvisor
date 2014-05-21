@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/icon_meeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_meetings"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_checkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_checkin"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_activity"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_dislike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_like_me"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_friends_add"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_meetings"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_like_me"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_blue_favorites"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_rate_dislike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_disliking"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/icon_rate_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_blue_liking"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <com.drink.imageloader.WebImageView2
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp" >
+        </com.drink.imageloader.WebImageView2>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#80CCCCCC"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

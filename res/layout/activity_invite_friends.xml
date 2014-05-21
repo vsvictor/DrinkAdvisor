@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background_right"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigation_bar" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/img_search" >
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFF" >
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btn_invite_all"
+            style="@style/ButtonLightBlue"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:minHeight="20dp"
+            android:text="@string/invite_all" />
+
+        <Button
+            android:id="@+id/btn_invite_selected"
+            style="@style/ButtonBoldFrameLightBlue"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:minHeight="20dp"
+            android:text="@string/selected_only" />
+
+    </LinearLayout>
+
+</LinearLayout>
